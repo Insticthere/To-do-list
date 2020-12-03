@@ -5,7 +5,7 @@ $("ul").click('li', function(e){
   $(e.target).toggleClass("slice");
 });
 
-function clear all() {
+function clearall() {
     localStorage.clear();
 };
 
