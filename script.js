@@ -5,6 +5,10 @@ $("ul").click('li', function(e){
   $(e.target).toggleClass("slice");
 });
 
+function clear all() {
+    localStorage.clear();
+};
+
 function myFunction() {
     var text, main, input, li, br, input1;
     input = document.getElementById("myInput").value;
