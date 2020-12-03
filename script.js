@@ -9,7 +9,7 @@ function myFunction() {
     var text, main, input, li, br, input1;
     input = document.getElementById("myInput").value;
     input1 = document.getElementById("myInput");
-    if (input > 85) { 
+    if (input.length > 85) { 
         alert('please use less than 85 keywords')
         input1.value = '';
     } else if (input === '') {
